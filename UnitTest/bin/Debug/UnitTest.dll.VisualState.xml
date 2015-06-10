@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1009]C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\bin\Debug\UnitTest.dll</TopNode>
+  <SelectedNode>[0-1010]UnitTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1009]C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\bin\Debug\UnitTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1010]UnitTest" Expanded="true" />
+    <Node UniqueName="[0-1000]UnitTest.NUnit" Expanded="true" />
+    <Node UniqueName="[0-1003]UnitTest.NUnit.Divide" Expanded="true" />
+  </Nodes>
+</VisualState>

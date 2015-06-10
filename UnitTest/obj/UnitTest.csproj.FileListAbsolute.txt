@@ -1,0 +1,8 @@
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\bin\Debug\UnitTest.dll
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\bin\Debug\UnitTest.pdb
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\bin\Debug\TestNUnit.dll
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\bin\Debug\TestNUnit.pdb
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\obj\Debug\UnitTest.dll
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\UnitTest\obj\Debug\UnitTest.pdb
