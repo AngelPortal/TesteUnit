@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MyReleaseOutput>.\release</MyReleaseOutput>
+  </PropertyGroup>
+  <Target Name="Build">
+    <Message Text="Building TestNUnit" />
+    <MSBuild Projects="TestNUnit.csproj" Targets="Build" />
+  </Target>
+  <Target Name="Release" DependsOnTargets="Build">
+    <MakeDir Directories="$(MyReleaseOutput)" />
+    <ItemGroup>
+      <MyReleaseFiles Include=".\bin\debug\*.*" Exclude=".\bin\debug\*vshost.exe" />
+    </ItemGroup>
+    <Copy SourceFiles="@(MyReleaseFiles)" DestinationFolder="$(MyReleaseOutput)" />
+  </Target>
+</Project>
