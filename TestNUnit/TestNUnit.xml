@@ -3,15 +3,23 @@
   <PropertyGroup>
     <MyReleaseOutput>.\release</MyReleaseOutput>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <MyReleaseFiles Include=".\bin\debug\*.*" Exclude=".\bin\debug\*vshost.exe" />
+  </ItemGroup>
+
+  <UsingTask TaskName="AddTask.AddTask" AssemblyFile="..\AddTask\bin\Debug\AddTask.dll"/>
+  
   <Target Name="Build">
     <Message Text="Building TestNUnit" />
     <MSBuild Projects="TestNUnit.csproj" Targets="Build" />
-  </Target>
-  <Target Name="Release" DependsOnTargets="Build">
+    <Message Text="Criando o Diretório Release" />
     <MakeDir Directories="$(MyReleaseOutput)" />
-    <ItemGroup>
-      <MyReleaseFiles Include=".\bin\debug\*.*" Exclude=".\bin\debug\*vshost.exe" />
-    </ItemGroup>
     <Copy SourceFiles="@(MyReleaseFiles)" DestinationFolder="$(MyReleaseOutput)" />
+    <AddTask Number1="10" Number2="12">
+      <Output TaskParameter="Sum" PropertyName="CalculatedSum"/>
+    </AddTask>
+    <Message Text="10 + 12 = $(CalculatedSum)" />
   </Target>
+
 </Project>

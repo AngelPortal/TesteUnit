@@ -1,0 +1,5 @@
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\AddTask\bin\Debug\AddTask.dll
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\AddTask\bin\Debug\AddTask.pdb
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\AddTask\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\AddTask\obj\Debug\AddTask.dll
+C:\Documents and Settings\02272453856\Meus documentos\Visual Studio 2005\Projects\TestNUnit\AddTask\obj\Debug\AddTask.pdb
